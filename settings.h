@@ -11,8 +11,8 @@ namespace engine {
   constexpr float g_ZFar{1000.0f};
 
   // Screen settings
-  constexpr size_t g_HorizontalRes{195}; // The actual horizontal pixel count is doubled
-  constexpr size_t g_VerticalRes{195};
+  constexpr size_t g_HorizontalRes{300}; // The actual horizontal pixel count is doubled
+  constexpr size_t g_VerticalRes{300};
 
   // Frame rate limit settings (NOT APPLIED YET)
   constexpr float g_FrameRateLimit{60.0f};
@@ -21,3 +21,4 @@ namespace engine {
 }
 
 #endif
+
