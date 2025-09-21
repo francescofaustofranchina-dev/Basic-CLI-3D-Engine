@@ -56,7 +56,7 @@ To help users use their meshes, the following guide shows how to export a model 
 4. Export the file into the *assets* folder of the project directory.
 
 📌 Note:
-- The engine uses a default resolution of 600x300 pixels.
+- The engine uses a default resolution of 400x200 pixels.
 - For the mesh to display correctly, you may need to reduce the size of your terminal window.
 ## 📅 Future plans
 I plan to further expand this project as a way to deepen my understanding of 3D graphics and to improve both my design and programming skills. My goal is to refine the existing codebase and implement the currently missing features.
