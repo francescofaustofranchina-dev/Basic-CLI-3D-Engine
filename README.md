@@ -30,11 +30,31 @@ Pixel brightness is represented using monochromatic ASCII characters, creating a
 - C++
 ## 🔧 Tools used
 - Visual Studio Code
-- ## ✏️ My role in the project
+## ✏️ My role in the project
 I developed the entire project from the ground up.
 ## 🖥️ How to run the engine
-
+1. Create a directory on your system where you want to place the project.
+2. Download the repository into that directory.
+3. Open the terminal and move into the project folder.
+4. Run the *engine* executable, passing the path to an `.obj` mesh file as the only argument.
+For example:
+```bash
+./engine assets/Cube.obj
+```
+To help users use their meshes, the following guide shows how to export a model from Blender using the correct settings:
+1. Open your mesh in Blender.
+2. Go to:  
+   **File → Export → Wavefront (.obj)**
+3. In the export panel (right side), configure the following options:
+   - #### Transform
+     - Forward: `Z Forward`
+     - Up: `-Y Up`
+   - #### Geometry
+     - Normals
+     - Triangulated Mesh
+     - Apply Modifiers
+4. Export the file into the *assets* folder of the project directory.
 ## 📅 Future plans
 I plan to further expand this project as a way to deepen my understanding of 3D graphics and to improve both my design and programming skills. My goal is to refine the existing codebase and implement the currently missing features.
 
-That said, since there are already many C++ engines similar to mine, I’m considering continuing this journey using a different programming language — both to explore new ecosystems and to challenge myself in a different context.
+That said, since I'm quite sure there are already many C++ engines similar to mine, I’ll continue this project using a different programming language.
