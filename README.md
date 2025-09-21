@@ -6,6 +6,9 @@ The engine currently works only on Linux systems. Furthermore, while it is capab
 This engine is a project I developed over about two months to learn C++ while also studying the fundamentals of 3D graphics. Because of this learning focus, I deliberately chose not to use any external graphics libraries. 
 
 Although I don't consider the engine to be "professional" software, I put significant effort into writing clean, readable, and modular code. Furthermore, I designed the engine with extensibility in mind, so that new features and improvements can be added more easily in the future.
+
+![Screenshot](assets/Engine_Screenshot.png)
+
 ## ✔️ Implemented features
 - **Basic math primitives and operations:** includes custom implementations of 2D and 3D vectors, matrices, and essential operations such as dot products, cross products, and matrix transformations.
 - **Global delta time:** a simple system to track and use frame time differences, allowing for time-independent transformations.
