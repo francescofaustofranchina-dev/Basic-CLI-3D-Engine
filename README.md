@@ -23,7 +23,7 @@ Although I don't consider the engine to be "professional" software, I put signif
   - Perform backface culling to improve performance by skipping non-visible triangles
   - Apply flat shading to simulate how directional light interacts with the surface of the mesh
 - **Rasterization:** the engine rasterizes each triangle using a bounding box scan technique. It also implements a Z-buffer to ensure correct depth rendering, displaying only the closest triangles to the camera.
-Pixel brightness is represented using monochromatic ASCII characters, creating a visually intuitive output in the terminal.
+Pixel brightness is represented using monochromatic ASCII characters.
 ## ❌ Missing features
 - Clipping
 - Rendering multiple meshes at the same time
