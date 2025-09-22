@@ -1,5 +1,5 @@
 # 🌐 Basic 3D Engine (CLI-based)
-Last update: 20/09/2025
+Last update: 21/09/2025
 ## ❗ Disclaimer
 The engine currently works only on Linux systems. Furthermore, while it is capable of correctly displaying meshes (`.obj` files), it lacks certain features such as clipping.
 ## 📄 Introduction
