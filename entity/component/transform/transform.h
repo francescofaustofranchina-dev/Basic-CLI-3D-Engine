@@ -30,15 +30,15 @@ namespace engine {
     void ApplyRotation(const Vector3& rotation);
 
   private:
-    Vector3 m_Position;         // Referred to the center of an Entity (Camera, DirectionalLight, Object3D)
-    Vector3 m_Rotation;         // Values are in degrees
+    Vector3 m_Position;       // Referred to the center of an Entity (Camera, DirectionalLight, Object3D)
+    Vector3 m_Rotation;       // Values are in degrees
     Vector3 m_Scale;
 
-    Matrix4x4 m_RotationMat;    // Contains the data relating to rotation
-                                // (used for the forward vector and for the
-                                // vertex normals)
-    Matrix4x4 m_ModelMat;       // Contains the data relating to location,
-                                // rotation, and scale
+    Matrix4x4 m_RotationMat;  // Contains the data relating to rotation
+                              // (used for the forward vector and for the
+                              // vertex normals)
+    Matrix4x4 m_ModelMat;     // Contains the data relating to location,
+                              // rotation, and scale
 
     void UpdateMatrices();
   };
